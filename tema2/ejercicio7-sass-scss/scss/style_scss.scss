@@ -1,0 +1,35 @@
+@import "variables";
+
+@mixin estilo {
+
+html{
+  background-color: $fondo;
+}
+
+body{
+  width: $anchura;
+  font: $anchura $fuente;
+  color: $color;
+}
+
+nav{
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: $color_menu;
+  }
+
+  li{
+    display: inline-block;
+  }
+
+  a{
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: $color_enlaces;
+  }
+}
+
+}

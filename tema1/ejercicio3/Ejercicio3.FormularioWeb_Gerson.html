@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario de prueba de HTML5</title>
+  </head>
+  <body style="background-color:#00008B">
+    <header><h1>Personal</h1></header>
+
+     <form action="/action_page.php" target="_blank" method="get">
+
+      <label for="fname">Nombre :</label><br>
+      <input type="text" id="fname" name="fname" autofocus><br>
+
+      <label for="email">Enter your email :</label><br>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="homepage">Escribe la URL de tu página web personal :</label><br>
+      <input type="url" id="homepage" name="homepage"><br>
+
+      <label for="fecha">Fecha :</label><br>
+      <input type="date" id="fecha" name="fecha"><br>
+
+      <label for="hora">Introduce la hora:</label><br>
+      <input type="time" id="hora" name="hora"><br>
+
+      <label for="ahora">Fecha y hora actual:</label><br>
+      <input type="datetime-local" id="ahora" name="ahora"><br>
+
+      <label for="month">Mes :</label><br>
+      <input type="month" id="month" name="month"><br>
+
+      <label for="week">Semana :</label><br>
+      <input type="week" id="week" name="week"><br>
+
+      <label for="quantity">Numero (entre -10 y 10):</label><br>
+      <input type="number" id="quantity" name="quantity" min="-10" max="10"><br>
+
+      <label for="phone">Introduce tu numero de telefono :</label><br>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"><br>
+
+      <label for="gsearch">Buscar en Google :</label><br>
+      <input type="search" id="gsearch" name="gsearch"><br>
+
+      <label for="favcolor">Introduce tu color favorito:</label><br>
+      <input type="color" id="favcolor" name="favcolor"><br>
+
+       <input type="button" onclick="alert('Hello World!')" value="Enviar">
+
+    </form>
+
+  </body>
+</html>

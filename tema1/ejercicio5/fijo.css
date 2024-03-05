@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+}
+
+.contenedor{width: 91%;float: left;}
+
+.contenedor1{width: 100%;float: right;height: max-content;}
+
+.ajuste{width: 50%;float: left;height: max-content;}
+
+.contenedor2{width: 100%;float: right;height: 100%;}
+
+.contenedor3{width: 100%;float: left;height: 100%;}
+
+.contenedor4{width: 46%;float: right;height: 100%;}
+
+.a{width: 68%;float: left;height: 100%;padding: 3px;}
+
+.b{width: 30%;float: left;height: 100%;padding: 3px;}
+
+.c{width: 46%;float: right;height: 100%;padding: 3px;}
+
+.d{width: 51%;float: left;height: 100%;padding: 3px;}
+
+.e{width: 46%;float: right;height: 100%;padding: 3px;}
+
+.f{width: 49.4%;float: left;height: 100%;padding: 3px;}
+
+.g{width: 31%;float: left;height: 100%;padding-left: 3px;}
+
+.h{width: 31%;float: left;height: 100%;padding-left: 3px;}
+
+.i{width: 31%;float: left;height: 100%;padding-left: 3px;}
+
+

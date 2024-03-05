@@ -1,0 +1,11 @@
+td.uno {
+	background-color: #AFEEEE;
+}
+
+table , td{
+	border: double;
+	font-family: "Celda X"
+	font-style: bold;
+        color: green;
+	font-size: medium;
+}

@@ -1,0 +1,30 @@
+p {
+	margin-bottom: 10px;
+	color: black;
+}
+
+
+header {
+	color: #00008B;
+	text-align: center;
+}
+
+table {
+	height: 75%;
+        width: 75%;
+	background-color: #ADD8E6;
+	border: 3px;
+	font-size: 1.6em;
+}
+
+tr.uno {
+	background-color: #808080;
+}
+
+form{
+	background-color: #808080;
+}
+
+label {
+	font-weight: bold;
+}

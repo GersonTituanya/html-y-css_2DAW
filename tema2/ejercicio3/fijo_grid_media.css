@@ -1,0 +1,104 @@
+h1 {
+
+    text-align: center;
+}
+
+
+div.navegator-bar{
+	display: grid;
+  align-content: center;
+  grid-template-columns: auto auto auto auto;
+  column-heigth: 100px;
+  gap: 10px;
+  padding: 40px;
+}
+
+div.navegator-bar > div {
+  text-align: center;
+  padding: 40px;
+  font-size: 30px;
+  column-heigth: 100px;
+}
+
+div.uno {
+	display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+div.blank {
+	column-width:270px;
+}
+
+
+div.right {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+div.blank2 {
+	column-width:115px;
+}
+
+div.dos {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+}
+
+div.blank3 {
+	
+        display: block;
+	column-width:300px;
+	padding-left: 430px;
+}
+
+
+div.a{
+	padding-right: 30px;
+
+}
+
+div.b{
+	padding-right: 30px;
+
+}
+
+div.f{
+	padding-right: 300px;
+
+}
+
+
+
+@media screen and (min-width: 1000px) {
+
+
+*{
+	font-size: 30px;
+	padding: 40px;
+}
+
+}
+
+@media screen and (max-width: 1000px) {
+
+*{
+	font-size: 20px;
+	background-color: yellow;
+	padding: 30px;
+}
+
+}
+
+@media screen and (max-width: 660px) {
+
+*{
+	font-size: 12px;
+	background-color: #ADD8E6;
+	display: grid;
+	grid-template-columns: auto;
+
+}
+
+}
+
+

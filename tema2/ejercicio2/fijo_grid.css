@@ -1,0 +1,53 @@
+h1 {
+
+    text-align: center;
+}
+
+
+div.uno {
+	display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+div.blank {
+	column-width:270px;
+}
+
+
+div.right {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+div.blank2 {
+	column-width:115px;
+}
+
+div.dos {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	column-height:500px;
+}
+
+div.blank3 {
+	
+        display: block;
+	column-width:300px;
+	padding-left: 430px;
+}
+
+
+div.a{
+	padding-right: 30px;
+
+}
+
+div.b{
+	padding-right: 300px;
+
+}
+
+div.f{
+	padding-right: 300px;
+
+}

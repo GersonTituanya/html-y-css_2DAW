@@ -1,0 +1,184 @@
+#contenedor{
+	width: 100%;
+}
+
+hr{
+	border: 1px solid #E0E0E0;
+}
+
+div.botones{
+	float: right;
+}
+
+
+div.izquierda{
+	display: flex;
+	padding-left: 30px;
+}
+
+div.izquierda2{
+	display: flex;
+	padding-left: 30px;
+}
+
+div.izquierda3{
+	display: flex;
+	padding-left: 30px;
+}
+
+div.derecha{
+	
+	background-color: yellow;
+}
+
+div > label.titulo{
+	font-weight:bold;
+}
+
+div.nombreyapellidos{
+	padding-left: 20px;
+	column-width: 400px;
+}
+
+#apellido1 , #apellido2 {
+	width: 80%;
+}
+
+div.ayuda1{
+	display:none;
+}
+
+div.izquierda:hover div.ayuda1 {
+	display:block;
+}
+
+div.c{
+	display:none;
+}
+
+div.derecha:hover div.c {
+	display:block;
+}
+
+div.ayuda2{
+	display:none;
+}
+
+div.izquierda2:hover div.ayuda2 {
+	display:block;
+	padding-left:20px;
+}
+
+div.ayuda3{
+	display:none;
+}
+
+div.izquierda3:hover div.ayuda3 {
+	display:block;
+}
+
+label.email{
+	padding-left:20px;
+	font-weight:bold;
+}
+
+input:hover{
+	border: 2px solid darkblue;
+	border-left: none ;
+}
+
+select:hover{
+	border: 2px solid darkblue;
+	border-left: none ;
+}
+
+span.requerido{
+	color: red;
+	font-style: bold;
+	font-size: 20px;
+}
+
+div.a{
+	float: left;
+	column-width: 83px;
+}
+
+div.b{
+	column-width:1000px;
+        padding-left: 10px;
+}
+
+div.c{
+	float:right;
+	column-width: 200px;
+}
+
+div.cont1{
+	display: flex;
+	padding-left: 30px;
+}
+
+div.email{
+	width:5%;
+	text-align: right;
+	padding-right: 15px;
+}
+
+#direccion{
+	width: 32%;
+}
+
+div.mitad{
+	padding-left: 20px;
+	column-width: 400px;
+}
+
+div.cont2{
+	display: flex;
+	padding-left: 30px;
+}
+
+div.d{
+	float: left;
+	column-width: 98px;
+}
+
+div.e{
+	column-width: 260px;
+}
+
+div.cont3{
+	display: flex;
+	padding-left: 30px;
+}
+
+div.g{
+	float: left;
+	column-width: 358px;
+}
+
+div.h{
+	padding-top: 10px;
+}
+
+#codigopostal{
+	width:40%;
+}
+
+
+div.cont4{
+	display: flex;
+	padding-left: 30px;
+}
+
+div.i{
+	column-width: 100px;
+}
+
+div.j{
+	column-width: 800px;
+}
+
+#pais{
+	width:23%;
+}

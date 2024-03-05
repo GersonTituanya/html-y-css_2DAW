@@ -1,0 +1,176 @@
+<html>
+<head>
+<title>Ejercicio 2 Pseudo-clases Gerson</title>
+    <link rel="stylesheet" href="pseudo-clases-formulario.css">
+</head>
+<body>
+<div id="contenedor">
+<h2>Formulario de alta</h2>
+<hr>
+<form method="post" action="#">
+
+<div class="izquierda">
+
+<div class="nombre">
+  <label class="titulo" for="nombre">Nombre y<br> apellidos <span class="requerido">*</span></label>
+</div>
+  <div class="nombreyapellidos">
+    <span class="completo">
+      <input id="nombre" name="nombre" value="" /><br>
+      <label for="nombre">Nombre</label><br>
+    </span>
+
+    <span class="completo">
+      <input id="apellido1" name="apellido1" value="" /><br>
+      <label for="apellido1">Primer apellido</label><br>
+    </span>
+
+    <span class="completo">
+      <input id="apellido2" name="apellido2" value="" /><br>
+      <label for="apellido2">Segundo apellido</label>
+    </span>
+  </div>
+  <div class="ayuda1">
+  <p class="ayuda1">No te olvides de escribir también tu segundo apellido</p>
+  </div>
+</div>
+
+
+
+<div class="derecha">
+
+<hr>
+
+ <div class="cont1">
+
+  <div class="a">
+  <label class="titulo" for="direccion">Dirección <span class="requerido">*</span></label>
+  </div>
+  <div class="b">
+    <span class="completo">
+      <input id="direccion" name="direccion" value="" /><br>
+      <label for="direccion">Calle, número, piso, puerta</label>
+    </span>
+   </div>
+
+  <div class="c">
+  <p class="ayuda">El código postal es <br>imprescindible para poder<br> recibir los pedidos</p>
+  </div>
+ 
+ </div>
+
+<div class="cont2">
+
+<div class="d"></div>
+
+<div class="e">
+    <span class="tercio">
+      <input id="codigopostal" name="codigopostal" value="" /><br>
+      <label for="codigopostal">Código postal</label>
+    </span>
+
+</div>
+
+<div class="f">
+    <span class="dostercios">
+      <input id="municipio" name="municipio" value="" /><br>
+      <label for="municipio">Municipio</label>
+    </span>
+
+</div>
+
+</div>
+
+<div class="cont3">
+
+<div class="g"></div>
+
+<div class="h">
+    <span class="tercio">
+      <select id="provincia" name="provincia">
+        <option value=""></option>
+        <option value="provincia1">Provincia 1</option>
+        <option value="provincia2">Provincia 2</option>
+        <option value="provincia3">Provincia 3</option>
+      </select><br>
+      <label for="provincia">Provincia</label>
+    </span>
+
+ </div>
+
+</div>
+
+
+<div class="cont4">
+
+<div class="i"></div>
+
+<div class="j">
+    <span class="dostercios">
+      <select id="pais" name="pais">
+        <option value=""></option>
+        <option value="pais1">País 1</option>
+        <option value="pais2">País 2</option>
+        <option value="pais3">País 3</option>
+      </select><br>
+      <label for="pais">País</label>
+    </span>
+ </div>
+
+</div>
+<hr>
+  </div>
+
+
+</div>
+
+
+
+<div class="izquierda2">
+
+  <div class="email">
+  <label class="titulo" for="email">Email</label>
+  </div>
+  <div>
+    <span class="completo">
+      <input id="email" name="email" value="" />
+    </span>
+  </div>
+<div class="ayuda2">
+  <p class="ayuda2">Asegúrate de que sea válido</p>
+</div>
+</div>
+<hr>
+
+<div class="izquierda3">
+  <label class="titulo" for="telefonofijo">Teléfono <span class="requerido">*</span></label>
+
+  <div class="mitad">
+    <span class="mitad">
+      <input id="telefonofijo" name="telefonofijo" value="" /><br>
+      <label for="telefonofijo">Fijo</label>
+    </span>
+</div>
+<div class="mitad">
+    <span class="mitad">
+      <input id="telefonomovil" name="telefonomovil" value="" /><br>
+      <label for="telefonomovil">Móvil</label>
+    </span>
+  </div>
+<div class="ayuda3">
+  <p class="ayuda3">Sin prefijo de país y sin espacios en blanco</p>
+</div>
+</div>
+
+<hr>
+
+<div class="botones">
+  <input id="alta" type="submit" value="Darme de alta &rarr;" />
+</div>
+
+
+</form>
+
+</div>
+</body>
+</html>

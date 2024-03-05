@@ -1,0 +1,27 @@
+div.a :hover {
+    color: orange;
+    font-size: 20px;
+}
+
+div.a :visited{
+    color: green;
+}
+
+div.a :first-child{
+    background-color: brown;
+    font-style:bold;
+}
+
+div.a :last-child{
+    background-color:purple;
+    font-style:bold;
+}
+
+p.invisible {
+  display: none;
+
+}
+
+div.b:hover p.invisible {
+  display: block;
+}
